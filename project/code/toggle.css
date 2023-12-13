@@ -1,0 +1,14 @@
+body{
+    background-color: aquamarine;
+    background-image: url(../images/select.gif);
+    background-repeat: no-repeat;
+    background-size: 1400px 900px;
+    
+    
+}
+.heading2{
+    margin-left: 800px;
+}
+.headng1{
+    margin-top: 300px;
+}

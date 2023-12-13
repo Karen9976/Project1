@@ -1,0 +1,79 @@
+.img1{
+    float: left;
+}
+.title{
+    text-align: center;
+    line-height: 300px;
+    color:crimson;
+    font-weight:bolder;
+    font-size:  40px;
+    
+}
+.container{
+    display: flex;
+}
+.box{
+   height: 50px;
+   width: 100px;
+   margin-left: 100px;
+   font-weight: bolder;
+   font-size: x-large;
+   
+}
+.division1{
+    background-image: url(../images/banana\ leaf.jpg);
+}
+.container1{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content:center;
+    margin-top: 50px;
+}
+.box1{
+    height: 300px;
+    width: 400px;
+    border: 5px solid greenyellow;
+    margin-left: 100px;
+    margin-top: 30px;
+    
+
+}
+
+
+.box1:hover{
+    transform: scale(1.5);
+}
+.animate{
+    height: 200px;
+    width: 300px;
+    
+    animation-name: dosa;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes dosa {
+    0%{
+        background-image: url(../images/dosastart.gif);
+        margin-left: 10px;
+    }
+    50%{
+        background-image: url(../images/dosamiddle.gif);
+        margin-left: 300px;
+
+    }
+    100%{
+        background-image: url(../images/prabhu.gif);
+        margin-left: 600px;
+    }
+    
+}
+.img2{
+    float:left
+}
+
+.head2{
+    margin-top: 450px;
+}
+
+ 
